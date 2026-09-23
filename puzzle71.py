@@ -22,8 +22,8 @@ import hashlib
 import random
 
 # ======================= CONFIGURE HERE =======================
-START       = 0x5EA55B36588996CDA1       # first private key (int or hex str, e.g. "0x1")
-END         = 0x5FFFFFFFFFFFFFFFFF       # last private key, inclusive
+START       = 0x400000000000000000       # first private key (int or hex str, e.g. "0x1")
+END         = 0x7FFFFFFFFFFFFFFFFF       # last private key, inclusive
 COMPRESSED  = True     # True -> 33-byte pubkey (bc "1..." compressed); False -> uncompressed
 HEX_FULL    = False    # True -> full 32-byte hex (64 chars, how a real key looks); False -> compact hex
 CSV_PATH    = ""       # e.g. "addresses.csv" to also save a file; "" to skip
